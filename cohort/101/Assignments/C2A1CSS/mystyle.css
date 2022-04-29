@@ -1,0 +1,31 @@
+.p{
+    
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: none;
+    
+}
+.my-p{
+    font-size: 17px;
+    color: #96c2e8;
+    font-family: Arial;
+    text-align: justify;
+    background-color: gray;
+}
+body{
+    font-family: arial;
+    background-color: grey;
+    text-align: center;
+}
+header h1{
+    font-size: arial;
+    color: green;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 20px;
+    word-spacing: 10px;
+    text-shadow: 2px 2px white;
+    background-color: black;
+}
+
