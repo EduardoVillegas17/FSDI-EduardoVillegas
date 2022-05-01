@@ -1,0 +1,67 @@
+/*menu*/
+*{
+    margin: 0;
+}
+.p{
+    
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: none;
+    color: #dedede;
+    
+}
+.my-p{
+    font-size: 17px;
+    color: #96c2e8;
+    font-family: Arial;
+    text-align: justify;
+    background-color: gray;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: grey;
+    text-align: center;
+}
+/*menu*/
+header h1{
+    font-size: arial;
+    color: green;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 20px;
+    word-spacing: 10px;
+    text-shadow: 2px 2px white;
+    background-color: black;
+}
+.container{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+header{
+    background-image: url(https://i.3djuegos.com/juegos/17692/_noticias2020_/fotos/maestras/_noticias2020_-5653853.jpg);
+    height: 40vh;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+nav.menu{
+    background-color: #dedede;
+    padding: 20px;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+
+}
+
+nav.menu a{
+    font-size: 16px;
+}
+footer nav a{
+    font-size: 12px;
+}
