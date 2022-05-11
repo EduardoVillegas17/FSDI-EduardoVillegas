@@ -1,0 +1,69 @@
+:root{
+    --prymary:#ffcc00;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Lato',sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav.menu{
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav.menu img{
+    height: 30px;
+    padding-left: 20px;
+}
+.link-glass, .link-renew,.link-menu,.logo{
+    display: none;
+}
+.link-login{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 4px;
+    font-size: 14px;
+    color: black;
+}
+.link-subs{
+    background-size: 200% 100%;
+    background-position: 100% 0%;
+    background-color: black;
+    background-image: linear-gradient(to left,black 50%,var(--primary)50%);
+    transition: background-pasition .2s ease-in-out, color .2s ease-in-out;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 12px;
+    padding: 17px;
+}
+.link-subs:hover{
+    background-position: 0 100%;
+    color: black;
+}
+.link-angles{
+    color: black;
+}
+nav.menu a:last-of-type{
+    margin-right: 30px;
+}
+header{
+    text-align: center;
+    height: 230px;
+}
